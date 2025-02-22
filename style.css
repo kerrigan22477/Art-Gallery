@@ -36,3 +36,39 @@ body {
         background-color: #5d7025;
         color: #e0a7a7;
 }
+
+/* make all article text brown */
+article {
+        color: #5e432d;
+}
+
+/* padding: verticle, horizontal */
+/* recipe title */
+article h2 {
+	color: #5e432d;
+	font-size: 30px;
+	padding-left: 20px;
+}
+
+article ul {
+	margin-top: 0;
+	font-size: 18px;
+}
+
+/*recipe label (ingredients, recipe)*/
+article h3 {
+	text-decoration-line: underline;
+        padding-left: 20px;
+}
+
+/* label to split up ingredients */
+article div {
+	font-size: 18px;
+	padding-left: 20px;
+	text-decoration-line: underline;
+}
+
+article p {
+	padding-left: 20px;
+	font-size: 18px;
+	}
