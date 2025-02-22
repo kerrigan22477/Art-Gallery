@@ -1,0 +1,38 @@
+body {
+	background-color: #f8e8e3;
+}
+.header {
+	background-image: url('greenfield.jpg');
+	color: #e0a7a7;
+	text-shadow: 2px 2px 2px #3e1a13;
+	padding: 10px;
+	text-align: center;
+	font-size: 30px;
+}
+
+.navbar {
+	background-color: #e0a7a7;
+	overflow: hidden;
+}
+
+/* links inside navbar */
+.navbar a {
+	float: left;
+	color: #f8e8e3;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+/* change link appearance on hover */
+.navbar a:hover {
+	background-color: #5d7025;
+        color: #e0a7a7;
+}
+
+/* make current link a different color */
+.navbar a.active {
+        background-color: #5d7025;
+        color: #e0a7a7;
+}
