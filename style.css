@@ -1,6 +1,22 @@
 body {
 	background-color: #f8e8e3;
 }
+
+img {
+  --s: 20px;    /* size of the frame */
+  --g: 10px;    /* the gap */
+  --c: #FA6900; 
+  
+  padding: calc(var(--g) + var(--s));
+  background: 
+    radial-gradient(farthest-side,var(--c) 97%,#0000)
+    0 0/calc(2*var(--s)) calc(2*var(--s)) round;
+  mask:
+    conic-gradient(from 90deg at calc(2*var(--s)) calc(2*var(--s)),#0000 25%,#000 0)
+     calc(-1*var(--s)) calc(-1*var(--s)),
+    linear-gradient(#000 0 0) content-box;
+}
+
 .header {
 	background-image: url('greenfield.jpg');
 	color: #e0a7a7;
