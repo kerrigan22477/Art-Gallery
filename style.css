@@ -101,8 +101,14 @@ article p {
 	right: 0;
 }
 
-.art {
+.artSquare {
 	position: absolute;
 	top: 80px;
+	left: 150px;
+}
+
+.artRectangle {
+	position: absolute;
+	top: 100px;
 	left: 150px;
 }
