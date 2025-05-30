@@ -24,6 +24,7 @@ img.scallop {
 	padding: 10px;
 	text-align: center;
 	font-size: 30px;
+	font-family: 'Macondo', cursive;
 }
 
 .navbar {
@@ -39,6 +40,7 @@ img.scallop {
 	padding: 14px 16px;
 	text-decoration: none;
 	font-size: 17px;
+	font-family: 'Courier Prime', monospace;
 }
 
 /* change link appearance on hover */
@@ -56,6 +58,17 @@ img.scallop {
 /* make all article text brown */
 article {
         color: #5e432d;
+		font-family: 'Courier Prime', monospace;
+}
+
+
+li.recipeList {
+	color: #5e432d;
+	font-family: 'Courier Prime', monospace;
+}
+
+a.recipeList {
+	text-decoration: none;
 }
 
 /* padding: verticle, horizontal */
@@ -64,17 +77,20 @@ article h2 {
 	color: #5e432d;
 	font-size: 30px;
 	padding-left: 20px;
+	font-family: 'Courier Prime', monospace;
 }
 
 article ul {
 	margin-top: 0;
 	font-size: 18px;
+	font-family: 'Courier Prime', monospace;
 }
 
 /*recipe label (ingredients, recipe)*/
 article h3 {
 	text-decoration-line: underline;
 	padding-left: 20px;
+	font-family: 'Courier Prime', monospace;
 }
 
 /* label to split up ingredients */
@@ -82,11 +98,13 @@ article div {
 	font-size: 18px;
 	padding-left: 20px;
 	text-decoration-line: underline;
+	font-family: 'Courier Prime', monospace;
 }
 
 article p {
 	font-size: 18px;
 	padding-left: 20px;
+	font-family: 'Courier Prime', monospace;
 }
 
 .parent {
