@@ -25,21 +25,41 @@
 }
 
 .word {
+  font-size: clamp(32px, 6vw, 60px);
+  font-weight: bold;
+  background: url('gold2.jpg');
+  background-size: cover;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-shadow:
+    1px 1px 2px rgba(0,0,0,0.3),
+    2px 2px 4px rgba(0,0,0,0.2);
+  display: inline-block;
+}
+
+@media (max-width: 600px) {
+  .word {
+    text-shadow: 0.5px 0.5px 1px rgba(0,0,0,0.2);
+  }
+}
+
+/* .word {
   font-size: 60px;
   font-weight: bold;
-  background: url('gold2.jpg'); /* Use a clean, high-res gold texture */
+  background: url('gold2.jpg'); /* Use a clean, high-res gold texture 
   background-size: cover;
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
 
-  /* Soft, subtle shadow only to create depth without muddying */
+  /* Soft, subtle shadow only to create depth without muddying 
   text-shadow:
     1px 1px 2px rgba(0,0,0,0.3),
     2px 2px 4px rgba(0,0,0,0.2);
 
   display: inline-block;
-}
+} */
 
 /*.word {
 	font-weight: bold;
