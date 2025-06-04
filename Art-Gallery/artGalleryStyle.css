@@ -103,7 +103,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 300px; /* Fixed height to normalize layout */
+  height: auto; /* Fixed height to normalize layout */
   overflow: hidden;
 }
 
