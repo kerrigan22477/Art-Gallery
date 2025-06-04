@@ -1,0 +1,78 @@
+.navbarGold {
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.navbarGold a {
+	float: left;
+	color: goldenrod;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	font-family: 'Courier Prime', monospace;
+}
+
+/* change link appearance on hover */
+.navbarGold a:hover {
+    border-style: solid;
+}
+
+/* make current link a different color */
+.navbarGold a.active {
+    border-style: solid;
+}
+
+.word {
+	font-weight: bold;
+	background: url('gold2.jpg');
+	background-size: cover;
+	color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+}
+
+.headerBlack{
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Macondo', cursive;
+}
+
+.parent {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.frame {
+	position: relative;
+	top: 0;
+	right: 0;
+}
+
+.artSquare {
+	position: absolute;
+	top: 75px;
+	left: 150px;
+}
+
+.artRectangle {
+	position: absolute;
+	top: 100px;
+	left: 150px;
+}
+
+.image-grid2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  padding: 30px;
+}
+
+.image-grid2 img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* optional styling */
+}

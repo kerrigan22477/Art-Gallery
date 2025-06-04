@@ -57,10 +57,53 @@ img.scallop {
     border-style: solid;
 }
 
-.header {
+.navbarGold {
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.navbarGold a {
+	float: left;
+	color: goldenrod;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	font-family: 'Courier Prime', monospace;
+}
+
+/* change link appearance on hover */
+.navbarGold a:hover {
+    border-style: solid;
+}
+
+/* make current link a different color */
+.navbarGold a.active {
+    border-style: solid;
+}
+
+
+.headerPink{
 	background-image: url('greenfield.jpg');
 	color: #e0a7a7;
 	text-shadow: 2px 2px 2px #3e1a13;
+	padding: 10px;
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Macondo', cursive;
+}
+
+.word {
+	font-weight: bold;
+	background: url('gold2.jpg');
+	background-size: cover;
+	color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+}
+
+.headerBlack{
 	padding: 10px;
 	text-align: center;
 	font-size: 30px;
@@ -194,7 +237,7 @@ div.caption {
 .image-grid2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 30px;
+  gap: 80px;
   padding: 30px;
 }
 
