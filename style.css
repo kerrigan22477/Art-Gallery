@@ -2,10 +2,6 @@ body {
 	background-color: #f8e8e3;
 }
 
-body.sketch {
-	background-color: ivory;
-}
-
 img.scallop {
   --s: 20px;    /* size of the frame */
   --g: 10px;    /* the gap */
@@ -21,89 +17,10 @@ img.scallop {
     linear-gradient(#000 0 0) content-box;
 }
 
-.sketchHeader {
-	color: #20170f;
-	height: 40px;
-	margin-top: auto;
-	text-align: center;
-	font-size: 100px;
-	font-family: 'Nanum Brush Script';
-}
-
-.navbarSketch {
-	display: flex;
-	justify-content: center;
-	background-color: ivory;
-	overflow: hidden;
-}
-
-.navbarSketch a {
-	float: left;
-	color: #20170f;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 17px;
-	font-family: 'Courier Prime', monospace;
-}
-
-/* change link appearance on hover */
-.navbarSketch a:hover {
-    border-style: solid;
-}
-
-/* make current link a different color */
-.navbarSketch a.active {
-    border-style: solid;
-}
-
-.navbarGold {
-	display: flex;
-	justify-content: center;
-	overflow: hidden;
-}
-
-.navbarGold a {
-	float: left;
-	color: goldenrod;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 17px;
-	font-family: 'Courier Prime', monospace;
-}
-
-/* change link appearance on hover */
-.navbarGold a:hover {
-    border-style: solid;
-}
-
-/* make current link a different color */
-.navbarGold a.active {
-    border-style: solid;
-}
-
-
 .headerPink{
 	background-image: url('greenfield.jpg');
 	color: #e0a7a7;
 	text-shadow: 2px 2px 2px #3e1a13;
-	padding: 10px;
-	text-align: center;
-	font-size: 30px;
-	font-family: 'Macondo', cursive;
-}
-
-.word {
-	font-weight: bold;
-	background: url('gold2.jpg');
-	background-size: cover;
-	color: transparent;
-	-webkit-background-clip: text;
-	background-clip: text;
-}
-
-.headerBlack{
 	padding: 10px;
 	text-align: center;
 	font-size: 30px;
@@ -188,62 +105,4 @@ article p {
 	font-size: 18px;
 	padding-left: 20px;
 	font-family: 'Courier Prime', monospace;
-}
-
-.parent {
-	position: relative;
-	top: 0;
-	left: 0;
-}
-
-.frame {
-	position: relative;
-	top: 0;
-	right: 0;
-}
-
-.artSquare {
-	position: absolute;
-	top: 75px;
-	left: 150px;
-}
-
-.artRectangle {
-	position: absolute;
-	top: 100px;
-	left: 150px;
-}
-
-div.caption {
-	position: absolute;
-	left: 200px;
-}
-
-.image-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 30px;
-  padding: 30px;
-}
-
-.image-grid img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 8px; /* optional for rounded corners */
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* optional styling */
-}
-
-.image-grid2 {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 80px;
-  padding: 30px;
-}
-
-.image-grid2 img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* optional styling */
 }
