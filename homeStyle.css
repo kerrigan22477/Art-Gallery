@@ -9,6 +9,7 @@ body {
 .header-container {
     display: flex;
     justify-content: center; /* Centers child horizontally */
+	padding-top: 200px;      /* Keeps your original vertical spacing */
 }
 
 .header {
@@ -28,7 +29,6 @@ body {
 .navbar li {
 	text-align: center;
     list-style: none;
-    padding: 14px 16px;
 }
 
 /* links inside navbar */
