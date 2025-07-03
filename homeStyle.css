@@ -29,6 +29,7 @@ body {
 .navbar li {
 	text-align: center;
     list-style: none;
+	padding: 14px 16px;
 }
 
 /* links inside navbar */
