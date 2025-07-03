@@ -1,0 +1,117 @@
+body {
+	background-color: #f8e8e3;
+}
+
+img.scallop {
+  --s: 20px;    /* size of the frame */
+  --g: 10px;    /* the gap */
+  --c: #FA6900; 
+  
+  padding: calc(var(--g) + var(--s));
+  background: 
+    radial-gradient(farthest-side,var(--c) 97%,#0000)
+    0 0/calc(2*var(--s)) calc(2*var(--s)) round;
+  mask:
+    conic-gradient(from 90deg at calc(2*var(--s)) calc(2*var(--s)),#0000 25%,#000 0)
+     calc(-1*var(--s)) calc(-1*var(--s)),
+    linear-gradient(#000 0 0) content-box;
+}
+
+
+.header-container {
+    display: flex;
+    justify-content: center; /* Centers child horizontally */
+    padding-top: 200px;      /* Keeps your original vertical spacing */
+}
+
+.header {
+    color: ivory;
+    text-shadow: 1px 1px 1px #3e1a13;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Courier Prime', monospace;
+    }
+
+.navbar {
+	justify-content: center;
+	overflow: hidden;
+}
+
+/* links inside navbar */
+.navbar li {
+	text-align: center;
+    list-style: none;
+    padding: 14px 16px;
+}
+
+/* links inside navbar */
+.navbar a {
+	color: #5e432d;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	font-family: 'Courier Prime', monospace;
+}
+
+/* change link appearance on hover */
+.navbar a:hover {
+    border-style: solid;
+}
+
+/* make current link a different color */
+.navbar a.active {
+    border-style: solid;
+}
+
+/* make all article text brown */
+article {
+    color: #5e432d;
+	font-family: 'Courier Prime', monospace;
+}
+
+
+li.recipeList {
+	color: #5e432d;
+	font-family: 'Courier Prime', monospace;
+}
+
+a.recipeList {
+	text-decoration: none;
+}
+
+/* padding: verticle, horizontal */
+/* recipe title */
+article h2 {
+	color: #5e432d;
+	font-size: 30px;
+	padding-left: 20px;
+	font-family: 'Courier Prime', monospace;
+}
+
+article ul {
+	margin-top: 0;
+	font-size: 18px;
+	font-family: 'Courier Prime', monospace;
+}
+
+/*recipe label (ingredients, recipe)*/
+article h3 {
+	text-decoration-line: underline;
+	padding-left: 20px;
+	font-family: 'Courier Prime', monospace;
+}
+
+/* label to split up ingredients */
+article div {
+	font-size: 18px;
+	padding-left: 20px;
+	text-decoration-line: underline;
+	font-family: 'Courier Prime', monospace;
+}
+
+article p {
+	font-size: 18px;
+	padding-left: 20px;
+	font-family: 'Courier Prime', monospace;
+}
