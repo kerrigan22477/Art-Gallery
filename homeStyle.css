@@ -8,11 +8,7 @@ body {
 
 @media (max-width: 600px) {
   body {
-	margin: 0;
-    height: 3500px;
-	width: 3000px;
-    justify-content: center; /* Horizontal center */
-    align-items: center;     /* Vertical center */
+	background-size: 600px 400px;
   }
 }
 
